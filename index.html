@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MW</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="login-box">
+        <h2>LOGIN</h2>
+        <form>
+            <div class="user-box">
+                <input type="text" name ="" id="email" required>
+                <label>User name</label>
+            </div>
+            <div class="user-box">
+                <input type="password" name="" id="password" required>
+                <label>Password</label>
+            </div>
+        <!--    
+         <a href="home.html">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            submit
+         </a>
+        -->
+        <button type="submit" value="Login" class="submit-btn" onclick="auth()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            submit
+        </button>
+        </form>
+    </div>
+
+    <script>
+        function auth(){
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            if (email == "ad" && password == "123"){
+                window.location="home.html";
+                alert("success");
+            }
+            else{
+                alert("Fail");
+                return;
+            }
+        }
+    </script>
+</body>
+</html>
