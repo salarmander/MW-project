@@ -2,10 +2,10 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
 html {
@@ -23,114 +23,114 @@ body {
  }
 
 #navbar {
-    background: #14161a;
-    position: fixed;
-    height: 56px;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    top: 0;
-    z-index: 1000;
+   background: #14161a;
+   position: fixed;
+   height: 56px;
+   display: flex;
+   width: 100%;
+   align-items: center;
+   top: 0;
+   z-index: 1000;
 }
 
 #navbar a {
-    position: relative;
-    margin-bottom: 5px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 60px;
-    text-decoration: none;
+   position: relative;
+   margin-bottom: 5px;
+   color: #fff;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 60px;
+   text-decoration: none;
 }
 
 #navbar .menu-bars {
-    position: relative;
-    padding-right: 20px;
+   position: relative;
+   padding-right: 20px;
 }
 
 .input {
-    position: relative;
-    border: none;
-    outline: none;
-    border-radius: 10rem;
-    padding: 7px;
-    display: flex;
-    background-color: #ccc;
-    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
-    transition: 300ms ease-in-out;
-    left: 100px;
-    font-size: 15px;
+   position: relative;
+   border: none;
+   outline: none;
+   border-radius: 10rem;
+   padding: 7px;
+   display: flex;
+   background-color: #ccc;
+   box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+   transition: 300ms ease-in-out;
+   left: 100px;
+   font-size: 15px;
 }
   
 .input:focus {
-    background-color: rgb(255, 255, 255);
-    transform: scale(1.05);
-    box-shadow: 13px 13px 100px #969696,
-               -13px -13px 100px #4d4d4d;
-    width: 470px;
+   background-color: rgb(255, 255, 255);
+   transform: scale(1.05);
+   box-shadow: 13px 13px 100px #969696,
+              -13px -13px 100px #4d4d4d;
+   width: 470px;
 }
 
 .menu-bars {
-    margin-left: 2rem;
-    margin-bottom: 10px;
-    font-size: 2rem;
-    color: #fff;
+   margin-left: 2rem;
+   margin-bottom: 10px;
+   font-size: 2rem;
+   color: #fff;
 }
 
 hr {
-    background-color: #ccc;
-    height: 1px;
-    border: none;
+   background-color: #ccc;
+   height: 1px;
+   border: none;
 }
 
 #nav-menu {
-    z-index: 1001;
-    background-color: #14161a;
-    width: 200px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    left: -100%;
-    transition: 850ms;
+   z-index: 1001;
+   background-color: #14161a;
+   width: 200px;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   position: fixed;
+   top: 0;
+   left: -100%;
+   transition: 850ms;
 }
 
 #nav-menu.active {
-    left: 0;
-    transition: 350ms;
+   left: 0;
+   transition: 350ms;
 }
 
 .nav-text {
-    position: relative;
-    justify-content: start;
-    list-style: none;
-    width: 180px;
-    padding: 10px;
-    margin: 2px 0;
-    left: 8px;
+   position: relative;
+   justify-content: start;
+   list-style: none;
+   width: 180px;
+   padding: 10px;
+   margin: 2px 0;
+   left: 8px;
 }
 
 .nav-text a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 400;
-    margin-left: 1rem;
+   text-decoration: none;
+   color: #fff;
+   font-size: 400;
+   margin-left: 1rem;
 }
 
 .nav-text:hover {
-    border-radius: 6px;
-    padding-left: 5%;
-    background: #413b3b;
+   border-radius: 6px;
+   padding-left: 5%;
+   background: #413b3b;
 }
 
 .nav-menu-items {
-    width: 100%;
+   width: 100%;
 }
 
 .nav-icon {
-    padding-right: 1rem;
-    color: #fff;
+   padding-right: 1rem;
+   color: #fff;
 }
 
 #navbar-toggle {
