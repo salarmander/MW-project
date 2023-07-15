@@ -6,6 +6,13 @@
     <title>Mainpage</title>
     <link rel="stylesheet" href="css/style4.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />                  
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="js/main.js"></script>
+
 </head>
 <body>
     <header>
@@ -74,26 +81,129 @@
             <div class="btn ctn"><a href="#">Đọc tiếp</a></div>
         </div>
 
-        <h3>Danh sách chương</h3>
-        <nav class="chap-menu">
-            <ul>
-                <li class="chapter"><a href="chap-1.html">Chương 1</a></li>
-                <li class="chapter"><a href="chap-2.html">Chương 2</a></li>
-                <li class="chapter"><a href="chap-3.html">Chương 3</a></li>
-                <li class="chapter"><a href="chap-4.html">Chương 4</a></li>
-                <li class="chapter"><a href="chap-5.html">Chương 5</a></li>
-                <li class="chapter"><a href="chap-1.html">Chương 1</a></li>
-                <li class="chapter"><a href="chap-2.html">Chương 2</a></li>
-                <li class="chapter"><a href="chap-3.html">Chương 3</a></li>
-                <li class="chapter"><a href="chap-4.html">Chương 4</a></li>
-                <li class="chapter"><a href="chap-5.html">Chương 5</a></li>
-                <li class="chapter"><a href="chap-1.html">Chương 1</a></li>
-                <li class="chapter"><a href="chap-2.html">Chương 2</a></li>
-                <li class="chapter"><a href="chap-3.html">Chương 3</a></li>
-                <li class="chapter"><a href="chap-4.html">Chương 4</a></li>
-                <li class="chapter"><a href="chap-5.html">Chương 5</a></li>
-            </ul>
-        </nav>
+        <div class="chap-box">
+            <h3>Danh sách chương</h3>
+            <nav class="chap-menu">
+                <ul>
+                    <li class="chapter"><a href="chap-1.html">Chương 1</a></li>
+                    <li class="chapter"><a href="chap-2.html">Chương 2</a></li>
+                    <li class="chapter"><a href="chap-3.html">Chương 3</a></li>
+                    <li class="chapter"><a href="chap-4.html">Chương 4</a></li>
+                    <li class="chapter"><a href="chap-5.html">Chương 5</a></li>
+                    <li class="chapter"><a href="chap-1.html">Chương 1</a></li>
+                    <li class="chapter"><a href="chap-2.html">Chương 2</a></li>
+                    <li class="chapter"><a href="chap-3.html">Chương 3</a></li>
+                    <li class="chapter"><a href="chap-4.html">Chương 4</a></li>
+                    <li class="chapter"><a href="chap-5.html">Chương 5</a></li>
+                    <li class="chapter"><a href="chap-1.html">Chương 1</a></li>
+                    <li class="chapter"><a href="chap-2.html">Chương 2</a></li>
+                    <li class="chapter"><a href="chap-3.html">Chương 3</a></li>
+                    <li class="chapter"><a href="chap-4.html">Chương 4</a></li>
+                    <li class="chapter"><a href="chap-5.html">Chương 5</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <section class="slide-box">
+            <h4>Đề xuất</h4>
+            <div class="slider">
+                <ul id="autoWidth" class="cs-hidden">
+                    <li class="item-a">
+                        <div class="box">
+                            <a href="#">
+                                <div class="slide-img">
+                                    <img src="images/1.jpg" alt="1">
+                                        <div class="overlay">
+                                            <p>
+                                                This is Pradeep Saran, your tech mate!!! I love you all. Lets make this world a better place for all of us. Keep prospering...Keep learning!!!
+                                            </p>
+                                        </div>
+                                </div>
+                            </a>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">haha</a>
+                                    <span>lulu</span>
+                                </div>
+                                <a href="#" class="readbox">đọc thêm</a>
+                            </div>
+                        </div>
+                    </li>
+            
+                    <li class="item-b">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images/2.png" alt="2">
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">susu</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">haha</a>
+                                    <span>lulu</span>
+                                </div>
+                                <a href="#" class="readbox">huhu</a>
+                            </div>
+                        </div>
+                    </li>
+            
+                    <li class="item-c">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images/3.jpg" alt="3">
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">susu</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">haha</a>
+                                    <span>lulu</span>
+                                </div>
+                                <a href="#" class="readbox">huhu</a>
+                            </div>
+                        </div>
+                    </li>
+            
+                    <li class="item-d">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images/4.png" alt="4">
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">susu</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">haha</a>
+                                    <span>lulu</span>
+                                </div>
+                                <a href="#" class="readbox">huhu</a>
+                            </div>
+                        </div>
+                    </li>
+            
+                    <li class="item-e">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images/5.jpg" alt="5">
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">susu</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">haha</a>
+                                    <span>lulu</span>
+                                </div>
+                                <a href="#" class="readbox">huhu</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </section>
 
 </body>

@@ -265,17 +265,17 @@ hr {
 }
 
 .bodys h3 {
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+.chap-box {
    position: absolute;
    top: 640px;
-   left: 50px;
-   color: #fff;
-
+   left: 3%;
 }
 
 .chap-menu {
-   position: relative;
-   top: 670px;
-   left: 3%;
    width: 95%;
    background-color: #fff;
    border-radius: 10px;
@@ -301,3 +301,155 @@ hr {
    color: #fff;
    text-decoration-line: none;
 }
+
+@media (max-width: 380px) {
+   .button{
+      top: 100%;
+   }
+   .chap-box {
+      position: absolute;
+      top: 110%;
+   }
+   .slide-box{
+      top: 1129px;
+   }
+}
+
+@media screen and (min-width: 390px) and (max-width: 500px) {
+   .button{
+      top: 85%;
+   }
+   .chap-box {
+      position: absolute;
+      top: 90%;
+   }
+   .slide-box{
+      top: 1150px;
+   }
+
+}
+
+a {
+   text-decoration: none;
+}
+ 
+.slide-box {
+   height: 400px;
+   position: relative;
+   bottom: -850px;
+}
+
+.slide-box h4 {
+   color: #fff;
+   font-size: 25px;
+   position: relative;
+   margin-left: 30px;
+}
+
+.box {
+   width: 186px;
+   overflow: hidden;
+   margin: 25px; 
+}
+    
+.slide-img {
+   height: 248px;
+   position: relative;    
+}
+  
+.slide-img img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;  
+   border-radius: 5px; 
+}
+  
+.detail-box {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;    
+   background: linear-gradient( rgba(0, 0, 0, 0));
+}
+  
+.type {
+   display: flex;
+   flex-direction: column;
+}
+  
+.type a {
+   color: #fff;
+   margin: 5px 0px;
+   font-weight: 700;
+   letter-spacing: 0.5px;
+   padding-right: 8px;
+}
+  
+.type span {
+   color: #fff;
+}
+  
+.readbox {
+   position: relative;
+   left: 12px;
+   background-image: linear-gradient(90deg,#1f9dc8,#1dd14a 67%,#1dd14a);
+   border-radius: 4px;
+   display: block;
+   font-size: 14px;
+   width: 96px;
+   height: 32px;
+   line-height: 32px;
+   color: #fff;
+   text-align: center;
+}
+  
+.overlay {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+   height: 100%;
+   background-color:rgba(26, 25, 25, 1) ;
+   display: flex ;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.overlay p {
+   font-size: 14px;
+   line-height: 1.4em;
+   color: #fff;
+}
+
+.overlay {
+   visibility: hidden;
+}
+  
+.slide-img:hover .overlay{
+   visibility: visible;
+   animation: fade 0.5s;
+}
+  
+@keyframes fade {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+  
+.slider {
+   position: relative;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
