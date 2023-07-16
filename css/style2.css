@@ -29,7 +29,7 @@ section {
 
 .one {
     position: relative;
-    background-image: url(images/6769c3688837a2288ebf9c43b9fda225\ \(2\).jpg);
+    background-image: url(/images/1.jpg);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -37,7 +37,7 @@ section {
 
 .two {
     position: relative;
-    background-image: url(images/orient.png);
+    background-image: url(/images/2.png);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -45,7 +45,7 @@ section {
 
 .three {
     position: relative;
-    background-image: url(images/western.png);
+    background-image: url(/images/4.png);
     background-position: center;
     background-size: cover;
     cursor: pointer;
